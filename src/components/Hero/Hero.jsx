@@ -10,6 +10,7 @@ import {
   HeroDescription,
 } from "./Hero.styles";
 import HeroImage from "../../assets/images/blogs/reactart.webp";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -33,7 +34,7 @@ const Hero = () => {
           <ButtonGroup>
 
             <Button variant="primary">
-              Explore Blogs
+              <Link to="blog">Explore Blogs</Link>
             </Button>
 
             <Button variant="secondary">
